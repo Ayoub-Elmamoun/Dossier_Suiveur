@@ -6,6 +6,8 @@ class admin {
     private $admin_email;
     private $admin_password;
     private $admin_id;
+
+
     // admin_Username geters and seters
     public function set_admin_Username($admin_Username) 
     {
@@ -15,6 +17,7 @@ class admin {
     {
     return $this->admin_Username;
     }
+    
 
     // admin_email geters and seters
     public function set_admin_email($admin_email) 
@@ -45,6 +48,7 @@ class admin {
     {
     return $this->admin_id;
     }
+    
 
 }
-?>
+?>  
